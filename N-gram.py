@@ -178,7 +178,7 @@ if __name__ == "__main__":
     print(f"Stats for model:")
     print(f"Training \"tokens\": {model.num_tokens:,}")
     print(f"Number of n-grams: {model.num_grams:,}")
-    print(f"Quartiles for number of continuations: {model.quartiles}")
+    print(f"Quartiles for continuations: {model.quartiles}")
     print()
 
     print(model.generate("A rose by any other name", 1000, 0.5))
